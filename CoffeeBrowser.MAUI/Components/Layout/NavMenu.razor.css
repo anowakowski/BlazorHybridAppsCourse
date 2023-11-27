@@ -16,7 +16,7 @@
     }
 
 .top-row {
-    height: 3.5rem;
+    height: 140px;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -84,6 +84,12 @@
 
 .navbar-toggler:checked ~ .nav-scrollable {
     display: block;
+}
+
+.logo {
+    height: 80px;
+    display: block;
+    margin: auto;
 }
 
 @media (min-width: 641px) {
