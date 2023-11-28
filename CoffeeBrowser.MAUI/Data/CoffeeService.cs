@@ -1,4 +1,5 @@
-﻿using System.Net.Http.Json;
+﻿using CoffeeBrowser.Library.Data;
+using System.Net.Http.Json;
 
 namespace CoffeeBrowser.MAUI.Data
 {
