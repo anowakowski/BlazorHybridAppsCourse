@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CoffeeBrowser.MAUI"
+             xmlns:coffeeBrowserLib="clr-namespace:CoffeeBrowser.Library;assembly=CoffeeBrowser.Library"
              x:Class="CoffeeBrowser.MAUI.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
     <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
         <BlazorWebView.RootComponents>
-            <RootComponent Selector="#app" ComponentType="{x:Type local:Routes}" />
+            <RootComponent Selector="#app" ComponentType="{x:Type coffeeBrowserLib:Routes}" />
         </BlazorWebView.RootComponents>
     </BlazorWebView>
 

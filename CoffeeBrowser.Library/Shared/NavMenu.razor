@@ -48,13 +48,13 @@
 @code {
     private async Task Login()
     {
-        var authStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authStateProvider = (ICustomAuthenticationStateProvider)AuthStateProvider;
         await authStateProvider.LogInAsync();
     }
 
     private void Logout()
     {
-        var authStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        var authStateProvider = (ICustomAuthenticationStateProvider)AuthStateProvider;
         authStateProvider.Logout();
         NavigationManager.NavigateTo("/");
     }
