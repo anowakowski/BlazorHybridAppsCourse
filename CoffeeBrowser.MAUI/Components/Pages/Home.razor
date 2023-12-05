@@ -2,5 +2,18 @@
 
 <h1>Wired Brain Coffee</h1>
 
-Welcome to the coffe browser app.
+<AuthorizeView>
+    <Authorized>
+        Welcome to the coffe browser app.
+    </Authorized>
+    <NotAuthorized>
+        Please login
+    </NotAuthorized>
+</AuthorizeView>
 
+
+<AuthorizeView Roles="Admin">
+    <div>
+        This is only visible for admins
+    </div>
+</AuthorizeView>
