@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeBrowser.MAUI", "CoffeeBrowser.MAUI\CoffeeBrowser.MAUI.csproj", "{9C797C14-3750-4FAB-98B7-8788F28F6790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeBrowser.Library", "CoffeeBrowser.Library\CoffeeBrowser.Library.csproj", "{EF97E8AA-6BFB-402A-B0AA-4719E3843FD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeBrowser.Library", "CoffeeBrowser.Library\CoffeeBrowser.Library.csproj", "{EF97E8AA-6BFB-402A-B0AA-4719E3843FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeBrowser.BlazorServer", "CoffeeBrowser.BlazorServer\CoffeeBrowser.BlazorServer.csproj", "{CECB4F06-B9E8-4A7A-B8B9-14DB2738F761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{EF97E8AA-6BFB-402A-B0AA-4719E3843FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF97E8AA-6BFB-402A-B0AA-4719E3843FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF97E8AA-6BFB-402A-B0AA-4719E3843FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CECB4F06-B9E8-4A7A-B8B9-14DB2738F761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CECB4F06-B9E8-4A7A-B8B9-14DB2738F761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CECB4F06-B9E8-4A7A-B8B9-14DB2738F761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CECB4F06-B9E8-4A7A-B8B9-14DB2738F761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
